@@ -1,0 +1,79 @@
+:root {
+    fOnt-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightgray;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container {
+    background: white;
+    width: 900px;
+    margin: 40px auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.agenda {
+    list-style: none;
+    margin: 10px;
+}
+
+.agenda .employee {
+    background-color: lightblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.employee .name {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.employee .remove {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
+
+.add-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.add-employee {
+    background-color: rgb(221, 132, 132);
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.input {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+}
